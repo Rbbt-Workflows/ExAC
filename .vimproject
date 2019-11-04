@@ -1,0 +1,15 @@
+ExAC=/$PWD/ filter="*"{
+ workflow.rb
+ lib=lib{
+  rbbt=rbbt{
+   sources=sources{
+    ExAC.rb
+   }
+  }
+ }
+ share=share{
+  rbbt_commands=rbbt_commands{
+   bootstrap
+  }
+ }
+}
